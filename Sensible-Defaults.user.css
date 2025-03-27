@@ -529,6 +529,8 @@
           cursor:default;
 
     }
+
+}
     @-moz-document regexp("moz-extension:\\/\\/.*") {
      html {
           font-family: inherit; /* 1 */
@@ -539,3 +541,5 @@
           /* STOP CHANGING MY MOUSE CURSOR */
           cursor:default;
     }
+
+}
