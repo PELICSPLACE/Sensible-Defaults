@@ -517,3 +517,25 @@
      }
 
 }
+
+    @-moz-document regexp("https?\\/\\/.*\\.twitch\\.tv.*") {
+     html {
+          font-family: inherit; /* 1 */
+          font-size: inherit; /* 1 */
+          line-height: inherit; /* 1 */
+          margin: 0; /* 2 */
+          font-size:1em;
+          /* STOP CHANGING MY MOUSE CURSOR */
+          cursor:default;
+
+    }
+    @-moz-document regexp("moz-extension:\\/\\/.*") {
+     html {
+          font-family: inherit; /* 1 */
+          font-size: inherit; /* 1 */
+          line-height: inherit; /* 1 */
+          margin: 0; /* 2 */
+          font-size:1em;
+          /* STOP CHANGING MY MOUSE CURSOR */
+          cursor:default;
+    }
