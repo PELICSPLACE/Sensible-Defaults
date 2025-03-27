@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          Sensible Defaults
-@version       1.0.0
-@description   A new userstyle
+@version       1.0.3
+@description   Defaults for websites that don't set any.
 @license       CC-BY-SA-4.0
 @namespace     PelicsPlace
 @author        Pelic
@@ -399,96 +399,6 @@
 }
 
 @-moz-document domain("cargurus.com") {	
-     :root {
-          --dark01:#0A0A0A;
-          --dark02:#141414;
-          --dark03:#1E1E1E;
-          --dark04:#282828;
-          --dark05:#323232;
-          --dark06:#3C3C3C;
-          --dark07:#464646;
-          --dark08:#505050;
-          --dark09:#5A5A5A;
-          --dark10:#646464;
-          --dark11:#6E6E6E;
-          --dark12:#787878;
-          --dark13:#828282;
-          --dark14:#8C8C8C;
-          --dark15:#969696;
-          --dark16:#A0A0A0;
-          --dark17:#AAAAAA;
-          --dark18:#B4B4B4;
-          --dark19:#BEBEBE;
-          --dark20:#C8C8C8;
-          --dark21:#D2D2D2;
-          --dark22:#DCDCDC;
-          --dark23:#E6E6E6;
-          --dark24:#F0F0F0;
-          --dark25:#FAFAFA;
-          --black:#000000;
-          --white:#FFFFFF;
-          --verydarkred:#990000;
-          --verydarkorange:#993E00;
-          --verydarkyellow:#999900;
-          --verydarkgreen:#003300;
-          --verydarkblue:#005299;
-          --verydarkindigo:#330099;
-          --verydarkviolet:#4B0082;
-          --verydarkpink:#FF00FF;
-          --verydarkcyan:#009999;
-          --darkred:#CC0000;
-          --darkorange:#CC5200;
-          --darkyellow:#CCCC00;
-          --darkgreen:#006600;
-          --darkblue:#006DCC;
-          --darkindigo:#4400CC;
-          --darkviolet:#6800B5;
-          --darkpink:#FF33FF;
-          --darkcyan:#00CCCC;
-          --red:#FF0000;
-          --orange:#FF6600;
-          --yellow:#FFFF00;
-          --green:#009900;
-          --blue:#0088FF;
-          --indigo:#5500FF;
-          --violet:#8500E8;
-          --pink:#FF66FF;
-          --cyan:#00FFFF;
-          --lightred:#FF3333;
-          --lightorange:#FF8533;
-          --lightyellow:#FFFF33;
-          --lightgreen:#00CC00;
-          --lightblue:#33A0FF;
-          --lightindigo:#7733FF;
-          --lightviolet:#9E1CFF;
-          --lightpink:#FF99FF;
-          --lightcyan:#33FFFF;
-          --verylightred:#FF6666;
-          --verylightorange:#FFA466;
-          --verylightyellow:#FFFF66;
-          --verylightgreen:#00FF00;
-          --verylightblue:#66B8FF;
-          --verylightindigo:#9966FF;
-          --verylightviolet:#B44FFF;
-          --verylightpink:#FFB3FF;
-          --verylightcyan:#66FFFF;
-          --comment:#008000;
-          --success-default:#336633;
-          --success-hovered:#448844;
-          --warning-default:#997300;
-          --warning-hovered:#CC9900;
-          --failure-default:#660000;
-          --failure-hovered:#990000;
-          --linkage-default:#336699;
-          --linkage-hovered:#4080BF;
-     }
-     /*****************************************/
-     /* Forms
-     ========================================================================== */
-     /**
-     * 1. Change the font styles in all browsers.
-     * 2. Remove the margin in Firefox and Safari.
-     */
      button,
      input,
      optgroup,
@@ -498,8 +408,8 @@
           font-size: inherit; /* 1 */
           line-height: inherit; /* 1 */
           margin: 0; /* 2 */
-          color: var(--dark02);
-          background: var(--dark10);
+          color: #141414;
+          background: #646464;
      }
 
      /* Generic Links */
