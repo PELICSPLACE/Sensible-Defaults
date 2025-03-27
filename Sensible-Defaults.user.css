@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name          Sensible Defaults
-@version       1.0.6
+@version       1.0.7
+@description   Defaults for websites that don't set any.
 @homepageURL   https://github.com/PELICSPLACE/Sensible-Defaults
 @updateURL     https://github.com/PELICSPLACE/Sensible-Defaults/raw/refs/heads/main/Sensible-Defaults.user.css
-@description   Defaults for websites that don't set any.
-@license       CC-BY-SA-4.0
+@license       MIT License
 @namespace     PelicsPlace
 @author        Pelic
 @preprocessor  stylus
@@ -164,6 +164,8 @@
      /* Remove the margin in all browsers. */
      body {
           margin:0;
+          /* STOP CHANGING MY MOUSE CURSOR */
+          cursor:default;
      }
      /****/
      /* Render the `main` element consistently in IE. */
@@ -432,26 +434,27 @@
 
     @-moz-document regexp("https?\\/\\/.*\\.twitch\\.tv.*") {
      html {
+          line-height:1.15; /* 1 */
+          -webkit-text-size-adjust:100%; /* 2 */
+     }
+     body {
           font-family: inherit; /* 1 */
           font-size: inherit; /* 1 */
           line-height: inherit; /* 1 */
           margin: 0; /* 2 */
-          font-size:1em;
-          /* STOP CHANGING MY MOUSE CURSOR */
-          cursor:default;
-
     }
 
 }
     @-moz-document regexp("moz-extension:\\/\\/.*") {
      html {
+          line-height:1.15; /* 1 */
+          -webkit-text-size-adjust:100%; /* 2 */
+     }
+     body {
           font-family: inherit; /* 1 */
           font-size: inherit; /* 1 */
           line-height: inherit; /* 1 */
           margin: 0; /* 2 */
-          font-size:1em;
-          /* STOP CHANGING MY MOUSE CURSOR */
-          cursor:default;
     }
 
 }
