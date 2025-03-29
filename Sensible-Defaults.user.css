@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name          Sensible Defaults
-@version       1.0.8
+@version       1.0.9
 @description   Defaults for websites that don't set any.
 @homepageURL   https://github.com/PELICSPLACE/Sensible-Defaults
 @updateURL     https://github.com/PELICSPLACE/Sensible-Defaults/raw/refs/heads/main/Sensible-Defaults.user.css
@@ -444,6 +444,7 @@
           margin: 0; /* 2 */
     }
 
+}
 
     @-moz-document domain("homedepot.com") {
      html {
@@ -458,6 +459,7 @@
     }
 
 }
+
     @-moz-document regexp("moz-extension:\\/\\/.*") {
      html {
           line-height:1.15; /* 1 */
