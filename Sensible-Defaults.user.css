@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name          Sensible Defaults
-@version       1.0.9
+@version       1.1.0
 @description   Defaults for websites that don't set any.
 @homepageURL   https://github.com/PELICSPLACE/Sensible-Defaults
 @updateURL     https://github.com/PELICSPLACE/Sensible-Defaults/raw/refs/heads/main/Sensible-Defaults.user.css
@@ -114,10 +114,9 @@
           box-sizing:border-box;
      }
 
-     html {
+     body {
           background-color:var(--dark01);
           color:var(--dark15);
-          font-size:1em;
           /* STOP CHANGING MY MOUSE CURSOR */
           cursor:default;
      }
@@ -402,7 +401,11 @@
 
 }
 
-@-moz-document domain("cargurus.com") {	
+@-moz-document domain("cargurus.com") {
+	body {
+          color: #646464;
+          background: #0A0A0A;
+	}
      button,
      input,
      optgroup,
@@ -441,6 +444,8 @@
           font-family: inherit; /* 1 */
           font-size: inherit; /* 1 */
           line-height: inherit; /* 1 */
+          color: inherit;
+          background: inherit;
           margin: 0; /* 2 */
     }
 
@@ -455,6 +460,8 @@
           font-family: inherit; /* 1 */
           font-size: inherit; /* 1 */
           line-height: inherit; /* 1 */
+          color: inherit;
+          background: inherit;
           margin: 0; /* 2 */
     }
 
@@ -470,6 +477,8 @@
           font-size: inherit; /* 1 */
           line-height: inherit; /* 1 */
           margin: 0; /* 2 */
+          color: inherit;
+          background: inherit;
     }
 
 }
