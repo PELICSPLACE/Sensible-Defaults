@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name          Sensible Defaults
-@version       1.1.0
+@version       1.1.1
 @description   Defaults for websites that don't set any.
 @homepageURL   https://github.com/PELICSPLACE/Sensible-Defaults
 @updateURL     https://github.com/PELICSPLACE/Sensible-Defaults/raw/refs/heads/main/Sensible-Defaults.user.css
@@ -403,20 +403,20 @@
 
 @-moz-document domain("cargurus.com") {
 	body {
-          color: #646464;
-          background: #0A0A0A;
+          color: #646464 !important;
+          background: #0A0A0A !important;
 	}
      button,
      input,
      optgroup,
      select,
      textarea {
-          font-family: inherit; /* 1 */
-          font-size: inherit; /* 1 */
-          line-height: inherit; /* 1 */
+          font-family: inherit !important; /* 1 */
+          font-size: inherit !important; /* 1 */
+          line-height: inherit !important; /* 1 */
           margin: 0; /* 2 */
-          color: #141414;
-          background: #646464;
+          color: #141414 !important;
+          background: #646464 !important;
      }
 
      /* Generic Links */
